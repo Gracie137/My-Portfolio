@@ -6,7 +6,8 @@ Reset browser present stylings
 
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Ubuntu";
+    font-size: large;
     margin: 0;
     padding: 0;
     background-color: #F7F7F7;
@@ -150,28 +151,6 @@ main {
     margin: 0.5rem 0 0;
 }
 
-/* CV Section */
-#cv {
-    color: black;
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
-#cv .btn {
-    display: inline-block;
-    padding: 0.5rem;
-    background-color: #333;
-    color: white;
-    text-decoration: none;
-    width: 50%;
-    max-width: 400px;
-    border-radius: 4px;
-}
-
-#cv .btn:hover {
-    background-color: #555;
-}
-
 /* Contact Section */
 #contact {
     background-color: skyblue;
@@ -223,11 +202,6 @@ main {
     align-items: center;
 }
 
-#contact form label {
-    margin-top: 1rem;
-    color: black;
-}
-
 #contact form input, #contact form textarea {
     width: 100%;
     max-width: 400px;
@@ -235,6 +209,11 @@ main {
     margin-top: 0.5rem;
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+
+#contact form ::placeholder {
+    margin-top: 1rem;
+    color: black;
 }
 
 #contact form button {
@@ -272,6 +251,7 @@ footer .social {
 
 footer .social:hover {
     color: #ddd;
+    
 }
 
 /* Responsive Design */
