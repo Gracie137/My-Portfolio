@@ -181,10 +181,18 @@ main {
   flex-direction: column;
 }
 
+.email a {
+    color: skyblue;
+   text-decoration: none;
+   font-weight: bold;
+   transition: transform 0.3s ease;
+   transform: scale(1.1);
+}
+
 .phone-no{
   padding: 0.5rem;
   background-color: black;
-  border: 1px solid #ccc;
+  border: 1px white;
   color: white;
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
@@ -194,6 +202,14 @@ main {
   max-width: 400px;
   display: inline-flex;
   flex-direction: column;
+}
+
+.phone-no a {
+    color: skyblue;
+   text-decoration: none;
+   font-weight: bold;
+   transition: transform 0.3s ease;
+   transform: scale(1.1);
 }
 
 #contact form {
