@@ -168,9 +168,9 @@ main {
 
 .email{
   padding: 0.5rem;
-  background-color: white;
-  border: 1px solid black;
-  color: black;
+  background-color: black;
+  border: 1px white;
+  color: white;
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
   border-radius: 4px;
